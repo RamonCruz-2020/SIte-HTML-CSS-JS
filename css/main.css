@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+ul {
+    padding: 0px!important;
+}
+
 .menu-principal {
     width: 100%;
     background-color: #252323;
@@ -12,7 +16,7 @@ body {
 
 main {
     margin: 0 auto;
-    width: 900px;
+    width: 980px;
     position: relative;
 }
 
@@ -34,7 +38,13 @@ main {
 }
 .header-2 {
     background-color: white;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.menu-urls {
+    height: 80px;
     border-bottom: 3px solid #efefef;
 }
 
@@ -56,6 +66,23 @@ main {
 }
 
 .busca {
+    text-align: center;
     width: 30%;
     float: right;
+}
+
+.busca input {
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 36px;
+    width: 190px;
+    margin-top: 10px;
+    border: 2px solid #d6d6d6;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
