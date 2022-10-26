@@ -98,3 +98,46 @@ main {
     float: left;
     position: relative;
 }
+
+button.slick-prev {
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    top: 35%;
+    left: 15%;
+}
+
+button.slick-next {
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../img/proximo.png);
+    top: 35%;
+    right:15%;
+}
+
+.slider-principal {
+    width: 100%;
+}
+
+ul.slick-dots li {
+    display:inline-block;
+    font-size: 0;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;  
+}
+
+ul.slick-dots li.slick-active {
+    background-color: #00bac6;
+}
